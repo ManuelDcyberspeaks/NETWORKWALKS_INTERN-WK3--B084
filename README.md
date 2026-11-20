@@ -156,4 +156,9 @@ Best Use Case Real-world audits & sensitive files Quick labs & non-sensitive tes
 This repository and write-up are shared strictly for educational and authorized security research purposes only. The tools and techniques documented here should only ever be used on files, networks, and systems that you own or have explicit, written permission to test.
 
 
+### Evidence Collected 
+
+<img width="1280" height="1157" alt="image" src="https://github.com/user-attachments/assets/9ac0a3ab-43d0-4e4e-aa27-69b05abe806b" />
+<img width="905" height="1280" alt="image" src="https://github.com/user-attachments/assets/57fb24e5-b61a-4925-a9c9-33affb23cb86" />
+
 
