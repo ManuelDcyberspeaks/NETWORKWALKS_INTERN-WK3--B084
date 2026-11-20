@@ -42,6 +42,10 @@ Documenting a major milestone in my cybersecurity training understanding how cry
 • Disclaimer
 
 
+-----
+
+
+
 
 
 
@@ -53,6 +57,10 @@ Documenting a major milestone in my cybersecurity training understanding how cry
 
 
 Passwords are rarely stored or verified in plaintext; instead, systems use cryptographic hashes to represent them. In this lab, I explored how hashes are extracted from password-protected files (specifically encrypted PDFs) and how offline/online cracking tools recover the original plaintext passwords.
+
+
+-----
+
 
 
 
@@ -78,6 +86,9 @@ Johnny is the official GUI (Graphical User Interface) frontend for John the Ripp
 2. Install Johnny (GUI): Download and run the Johnny installer from the official repository.
 3. Link JTR to Johnny: Open Johnny, navigate to Settings, click Browse, and point it directly to your john.exe executable.
 
+------
+
+
 
 
 
@@ -92,6 +103,9 @@ Step Action Details
 5 Execute Attack Click Start New Attack to begin testing wordlists and rule mutations against the hash.
 
 
+-------
+
+
 
 [!WARNING]
 Hash Formatting Pitfall: Before saving your hash.txt file, inspect the start of the string. If you see extra characters like a leading b' or b (common Python byte-string markers from web extractors), remove them. Leaving them in will cause JTR to fail to recognize the hash format.
@@ -103,6 +117,11 @@ Hash Formatting Pitfall: Before saving your hash.txt file, inspect the start of 
 ### Verification & Result
 
 Once JTR finds a match, Johnny displays the recovered plaintext password in the interface. Entering this password into the locked PDF successfully decrypts and opens the document, confirming a successful audit.
+
+
+
+-----
+
 
 
 
@@ -127,6 +146,10 @@ Step-by-Step Walkthrough
 5. Unlock File: Once the tool resolves the plaintext password, copy it and unlock the local PDF to verify access.
 
 
+------
+
+
+
 
 
 ### ⚖️ Tool Comparison
@@ -140,6 +163,10 @@ Best Use Case Real-world audits & sensitive files Quick labs & non-sensitive tes
 
 
 
+------
+
+
+
 
 
 ### 💡 Key Takeaways & Defense
@@ -149,16 +176,62 @@ Best Use Case Real-world audits & sensitive files Quick labs & non-sensitive tes
 • Defensive Posture: Simple or dictionary-based passwords can be cracked in seconds. Enforcing long passphrases (14+ characters) with high entropy drastically increases the time and compute power required to crack a hash.
 
 
+-----
+
+
+
 
 
 ### ⚠️ Disclaimer
 
 This repository and write-up are shared strictly for educational and authorized security research purposes only. The tools and techniques documented here should only ever be used on files, networks, and systems that you own or have explicit, written permission to test.
 
+-----
+
+
 
 ### Evidence Collected 
 
 <img width="1280" height="1157" alt="image" src="https://github.com/user-attachments/assets/9ac0a3ab-43d0-4e4e-aa27-69b05abe806b" />
 <img width="905" height="1280" alt="image" src="https://github.com/user-attachments/assets/57fb24e5-b61a-4925-a9c9-33affb23cb86" />
+
+
+
+
+# 👤 Author
+
+<div align="center">
+
+### **Popoola Emmanuel Babalola**
+
+**Cybersecurity Professional | Networkwalks Intern | Batch B084**
+
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Popoola%20Emmanuel%20Manueldcyberspeaks-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/popoolaemmanuel)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Manueldcyberspeaks-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Manueldcyberspeaks)
+
+</div>
+
+-----
+
+
+
+
+<div align="center">
+
+
+### 🛡️ OFFENSIVE SECURITY • SOC READINESS • DFIR PRACTICES 
+
+**Identify → Investigate → Strengthen → Defend**
+
+
+<br>
+
+*Cybersecurity professional || Wk- 3 final project || B084|| November 2026 || Networkwalks intern*
+
+</div>
+
+---
 
 
